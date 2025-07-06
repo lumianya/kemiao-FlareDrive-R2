@@ -13,6 +13,15 @@
       <a :href="emailUrl" target="_blank" rel="noopener noreferrer" class="icon-link" title="站长邮箱">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48L48 64zM0 176L0 384c0 35.3 28.7 64 64 64l384 0c35.3 0 64-28.7 64-64l0-208L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z"></path></svg>
       </a>
+      <a href="telegramUrl" 
+   target="_blank" 
+   rel="noopener noreferrer" 
+   class="icon-link" 
+   title="Telegram">
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36" height="36">
+    <path fill="currentColor" d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.894 8.221l-1.97 9.28c-.145.658-.537.818-1.084.508l-3-2.21-1.447 1.394c-.14.141-.259.259-.374.261L9.15 17.63l-3.472-1.09c-.64-.203-.658-.64.136-.954l14.072-5.41c.538-.196 1.006.128.832.941z"/>
+  </svg>
+</a>
     </div>
 
     <div class="stats">
@@ -20,12 +29,12 @@
     </div>
 
     <div class="project-links">
-      <strong>项目:</strong><a href="https://github.com/willow-god/FlareDrive-R2" target="_blank"
+      <strong>自用项目:</strong><a href="https://github.com/lumianya/kemiao-FlareDrive-R2" target="_blank"
         rel="noopener noreferrer">FlareDrive-R2</a>
-      <strong>作者:</strong><a href="https://github.com/willow-god" target="_blank"
-        rel="noopener noreferrer">LiuShen</a>
-      <strong>初始项目:</strong><a href="https://github.com/ljxi/Cloudflare-R2-oss" target="_blank"
-        rel="noopener noreferrer">Cloudflare-R2-OSS</a>
+      <strong>修改者:</strong><a href="https://github.com/willow-god" target="_blank"
+        rel="noopener noreferrer">克喵爱吃卤面</a>
+      <strong>初始项目:</strong><a href="https://github.com/willow-god/FlareDrive-R2" target="_blank"
+        rel="noopener noreferrer">原项目</a>
     </div>
 
     <div class="powered">Powered by <a href="https://workers.cloudflare.com/" target="_blank"
@@ -40,10 +49,11 @@ export default {
   name: "Footer",
   data() {
     return {
-      homeUrl: "https://www.liushen.fun/",
-      blogUrl: "https://blog.liushen.fun/",
-      githubUrl: "https://github.com/willow-god",
-      emailUrl: "mailto:01@liushen.fun"
+      homeUrl: "https://www.kemiao.online/",
+      blogUrl: "https://blog-v3.kemeow.top/",
+      githubUrl: "https://github.com/lumianya",
+      emailUrl: "mailto:me@mail.kemeow.top",
+      telegramUrl: "https://t.me/kemiaoJun"
     };
   }
 };
